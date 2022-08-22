@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main {
+    background: url("img.webp");
+    width: 500px;
+    height: 400px;
+    border: 3px solid rgb(107, 8, 89);
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(97, 157, 226);
+    text-shadow: 0 0 1px black;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+
+}
+
+button{
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight:bold;
+    width: 200px;
+    margin-bottom:5px;
+    border-radius: 5px;
+}
+
+#increment-btn{
+   background: rgb(76, 22, 192);
+}
+
+#save-btn{
+    background: rgb(144, 26, 118);
+}
+
+#save-el{
+    margin-top: 30px;;
+    font-size: 30px;
+    color: rgb(222, 88, 162);
+    text-shadow: 0 0 1px black;
+}
